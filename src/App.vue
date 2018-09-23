@@ -3,7 +3,6 @@
     <aside>
       <NavBar v-on:toggleSideBar="toggleSideBar" :isSideBarOpen="isSideBarOpen"></NavBar>
       <SideBar v-on:toggleSideBar="toggleSideBar" :isSideBarOpen="isSideBarOpen"></SideBar>
-      {{isHeaderActive}}
     </aside>
     <header class="toast" :class="{ active: isHeaderActive, error: isToastError() }">
       <h1 v-if="status">{{status}}</h1>

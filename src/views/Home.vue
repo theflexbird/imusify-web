@@ -83,6 +83,7 @@ export default {
 <style lang="scss" scoped>
 .home {
   .lists {
+    height: 100vw;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
